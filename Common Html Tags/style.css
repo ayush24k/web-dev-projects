@@ -1,0 +1,7 @@
+/* If you are here, don't worry about the code below.  I just added some simple CSS styles
+   to make the layout look better */
+
+   input, button {
+    display: block;
+    margin-top: 20px;
+  }
