@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #111926;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.center {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #223040;
+    padding: 20px 0;
+}
+
+header div.center {
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+header a.social-link svg, footer svg {
+    fill: rgba(255, 255, 255, 0.6);;
+    height: 30px;
+}
+
+header a.nav-link.active {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    padding: 0 10px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+div.intro {
+    background-color: #111926;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.intro img {
+    width: 200px;
+    margin-top: 20px;
+}
+
+div.intro p {
+    margin: 0;
+    align-self: center;
+}
+
+div.h1 {
+    background-color: #223040;
+}
+
+h1 {
+    margin: 0px;
+    padding-top: 70px;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    border-top: 1px solid #556556;
+    padding: 25px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    
+}
+
+.profile-image {
+    border-radius: 10%;
+    border: 2px solid whitesmoke;
+}
+
+div.contact {
+    padding: 50px 0;
+}
