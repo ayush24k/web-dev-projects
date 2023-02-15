@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #e5e5e5;
+    min-height: 100vh;
+    border: 10px solid #1d1e4c;
+}
+
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.imageContainer {
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+.imageContainer img {
+    width: 300px;
+    height: 320px;
+}
+
+.topSection {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.topSection h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+
+.topSection h4 {
+    text-align: end;
+    font-size: 30px;
+}
+
+.aboutSection {
+    margin-top: 50px;
+}
+
+.aboutSection h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.aboutSection p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.bioGraphy {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.bioGraphy h3 {
+    margin-bottom: 15px;
+}
+
+.bioGraphy ul{
+    margin-left: 20px;
+}
+
+.bioGraphy li {
+    margin-bottom: 15px;
+}
+
+.footerSection {
+    margin-bottom: 30px;
+}
+.footerSection p {
+    text-align: right;
+}
