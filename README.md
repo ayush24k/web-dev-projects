@@ -36,5 +36,9 @@ This tribute website using HTML and CSS using flexbox.
 
 This eye rotating with mouse project is made using css and javascript.
 
+8.[ Simple Parallex Website](https://ayush24k.github.io/web-dev-projects/3.%20HTML%20%2B%20CSS%20(Projects)/5.%20Simple%20Parralex%20website)
+
+This parallex Effect is made using HTML and CSS.
+
 
 
