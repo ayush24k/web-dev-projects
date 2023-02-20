@@ -22,5 +22,6 @@ This tribute website using HTML and CSS using flexbox.
 
 This parallex Effect is made using HTML and CSS.
 
+6.[ Restaurant Website](https://ayush24k.github.io/web-dev-projects/3.%20HTML%20%2B%20CSS%20(Projects)/6.%20Cooking%20Website)
 
-
+This restaurant website is made uisng html and css using gird feature.
