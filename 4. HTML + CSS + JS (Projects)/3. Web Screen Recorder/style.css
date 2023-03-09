@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+/* CSS HEX */
+:root {
+    --purple: #834AFF;
+    --light-purple: #CFDEF9;
+    --smoke-white: #F2F2F2;
+}
+
+* {
+    margin: 0;;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: var(--smoke-white);
+    background-color: var(--purple);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+p {
+    position: relative;
+    text-align: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.hero-text {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 100px;
+}
+
+.basic-text {
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.115em;
+    margin-bottom: 15px;
+}
+
+.video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+button, a {
+    text-decoration: none;
+    padding: 10px 50px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--purple);
+    background-color: var(--smoke-white);
+    border: 1px solid #F2F2F2;
+    border-radius: 16px;
+    transition: 0.2s ease-in-out;
+}
+
+button:disabled {
+    opacity: 80%;
+}
+
+button:hover , a:hover {
+    cursor: pointer;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.bottom-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.video-feedback, .recorded-video {
+    background: var(--light-purple);
+    width: 804px;
+    height: 452px;
+    border-radius: 36px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    z-index: 2;
+}
+
+.download-section {
+    display: none;
+    flex-direction: column;
+}
+
+footer .credits-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
